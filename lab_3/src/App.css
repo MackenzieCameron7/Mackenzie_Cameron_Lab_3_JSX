@@ -33,9 +33,51 @@
   }
 }
 
-.card {
-  padding: 2em;
+h1{
+  border-bottom: solid grey ;
+  color:grey;
+  padding-bottom: 1em;
+  margin-bottom: 0;
 }
+
+h2{
+  font-size: 1em;
+  font-weight:900;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+p{
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.ListingContainer{
+display: flex;
+}
+
+.Listing{
+  display: flex;
+  padding: 1em;
+  flex-direction: column;
+}
+
+.Listing-Text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
 
 .read-the-docs {
   color: #888;
