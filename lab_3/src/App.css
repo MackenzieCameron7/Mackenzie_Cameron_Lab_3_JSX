@@ -77,6 +77,15 @@ display: flex;
   margin-bottom: 0px;
 }
 
+.location{
+  font-weight:700;
+  color:grey;
+}
+
+.rating{
+  color: green;
+}
+
 
 
 .read-the-docs {
